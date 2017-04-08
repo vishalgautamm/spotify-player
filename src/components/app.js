@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SearchBar from './SearchBar/SearchBar';
+import searchSpotify from '../utils/searchSpotify';
 
 export default class App extends Component {
   constructor(props) {
@@ -11,7 +12,8 @@ export default class App extends Component {
   }
 
   fetchSongs = () => {
-    console.log('Hey I\'m clicked');
+    searchSpotify(this.state.song)
+      .then(songs => console.log(songs))
   };
   render() {
     const { initialMessage } = this.state;
