@@ -1,20 +1,20 @@
-import React from 'react';
-import { mount, shallow } from 'enzyme';
-import { expect } from 'chai';
-import App from '../../src/components/app';
+import React from 'react'
+import { mount, shallow } from 'enzyme'
+import { expect } from 'chai'
+import App from '../../src/components/app'
 
-function setup() {
-  const wrapper = mount(<App />);
+function setup () {
+  const wrapper = mount(<App />)
 
   return {
-    wrapper,
-  };
+    wrapper
+  }
 }
 
-describe('App' , () => {
-  const { wrapper } = setup();
+describe('App', () => {
+  const { wrapper } = setup()
 
   it('renders something', () => {
-    expect(wrapper).to.exist;
-  });
-});
+    expect(wrapper).to.exist
+  })
+})

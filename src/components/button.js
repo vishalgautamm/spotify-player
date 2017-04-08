@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
-const Button = () => (
-  <button onDoubleClick={() => console.log("Hello")}> Click Me </button>
-)
+const Button = (props) => (
+  <button onClick={props.clicked}> {props.name} </button>
+);
+
+Button.propTypes = {
+  name: PropTypes.string,
+  clicked: PropTypes.func,
+};
 
 export default Button;
