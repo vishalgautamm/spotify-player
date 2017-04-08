@@ -12,7 +12,7 @@ export default class App extends Component {
 
   fetchSongs = () => {
     console.log('Hey I\'m clicked');
-  }
+  };
   render() {
     const { initialMessage } = this.state;
     return (
