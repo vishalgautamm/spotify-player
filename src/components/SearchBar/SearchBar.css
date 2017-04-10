@@ -7,13 +7,15 @@
 }
 .input {
   border: 1px solid #d3d3d3;
+  background-color: white;
   border-radius: 3px;
   margin-right: 3px;
   width: 350px;
-  height: 40px;
+  height: 30px;
   font-size: 15px;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: left;
+  color: #2b1f3b;
+  font-family: Open Sans, sans-serif, monospace;
 }
 
 .button {
@@ -30,21 +32,25 @@
 }
 
 ::-webkit-input-placeholder {
-   text-align: center;
-   font-family: Open Sans, sans-serif, monospace;
+  text-align: left;
+  font-size: 12px;
+  font-family: Open Sans, sans-serif, monospace;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   text-align: center;
-   font-family: Open Sans, sans-serif, monospace;
+  text-align: left;
+  font-size: 12px;
+  font-family: Open Sans, sans-serif, monospace;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   text-align: center;
-   font-family: Open Sans, sans-serif, monospace;
+  text-align: left;
+  font-size: 12px;
+  font-family: Open Sans, sans-serif, monospace;
 }
 
 :-ms-input-placeholder {
-   text-align: center;
-   font-family: Open Sans, sans-serif, monospace;
+  text-align: left;
+  font-size: 12px;
+  font-family: Open Sans, sans-serif, monospace;
 }
