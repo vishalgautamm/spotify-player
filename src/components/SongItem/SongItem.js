@@ -14,10 +14,10 @@ const SongItem = (props) => {
     <div className={styles.root}>
       <div className={styles.album}>
         <img className={styles.image} role="presentation" src={albumImage.url} />
-        <span className={styles.albumName}> {albumName} </span>
       </div>
       <div className={styles.songAndDescription}>
         <span className={styles.songDescription}> {songData.name} </span>
+        <span className={styles.albumName}> {albumName} </span>
         <span className={styles.songDescriptionMin}> {mins} </span>
         <audio controls duration autoPlay src={songData.preview_url} />
       </div>

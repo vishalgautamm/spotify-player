@@ -14,9 +14,10 @@
 .albumName {
   display: flex;
   justify-content: center;
-  letter-spacing: 0.1em;
+  margin-left: 10px;
   color: #19191B;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight:inherit;
   font-family: Open Sans, BlinkMacSystemFont, 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
