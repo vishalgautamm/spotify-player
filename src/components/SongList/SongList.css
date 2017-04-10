@@ -5,6 +5,7 @@
   overflow: scroll;
   margin-top: 10px;
   background-color: #27272b;
+  box-shadow: 4px 4px 1px #d3d3d3;
 }
 
 .eachSong {
@@ -12,9 +13,12 @@
   flex-direction: column;
 }
 
+.image:hover {
+  border: 2px solid #d3d3d3;
+}
+
 .image {
   justify-content: center;
-  border: 1px solid #d3d3d3;
   height: 120px;
   width: 150px;
   margin: 10px 10px;
