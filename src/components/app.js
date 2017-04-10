@@ -24,8 +24,12 @@ export default class App extends Component {
     const { tracks } = this.state;
     return (
       <div className={styles.root}>
-        <SearchBar updateText={(song) => this.setState({ song })} fetchSongs={this.fetchSongs} />
-        {tracks.items && <SongItem songData={tracks.items[0]} />}
+        <div className={styles.searchBar}>
+          <SearchBar updateText={(song) => this.setState({ song })} fetchSongs={this.fetchSongs} />
+        </div>
+        <div className={styles.content}>
+          {tracks.items && <SongItem songData={tracks.items[0]} />}
+        </div>
       </div>
     );
   }

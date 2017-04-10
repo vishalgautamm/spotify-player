@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  color: #222;
+
+}
+.input {
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  margin-right: 3px;
+  width: 350px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.button {
+  border: none;
+  background-color: #222;
+  border-radius: 5px;
+  border: 1px solid #4c4c59;
+  color: #6e6e84;
+  height: 30px;
+  width: 120px;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+   font-family: Open Sans, sans-serif, monospace;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   font-family: Open Sans, sans-serif, monospace;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+   font-family: Open Sans, sans-serif, monospace;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+   font-family: Open Sans, sans-serif, monospace;
+}
