@@ -1,5 +1,5 @@
-var webpack = require('webpack')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+var webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -11,7 +11,9 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
-    new ExtractTextPlugin('style.css'),
+    new ExtractTextPlugin('style.css', {
+      allChunks: true
+    }),
   ],
   externals: {
     cheerio: 'window',
@@ -27,7 +29,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style', 'css-loader?modules&importLoaders=1&localIdentName=[name]_[local]_[hash:base64:5]!postcss?parser=postcss-scss'),
+        loader: ExtractTextPlugin.extract('css-loader'),
       },
     ],
   },
