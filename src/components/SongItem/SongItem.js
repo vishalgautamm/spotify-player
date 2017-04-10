@@ -19,7 +19,7 @@ const SongItem = (props) => {
       <div className={styles.songAndDescription}>
         <span className={styles.songDescription}> {songData.name} </span>
         <span className={styles.songDescriptionMin}> {mins} </span>
-        <audio controls duration src={songData.preview_url} />
+        <audio controls duration autoPlay src={songData.preview_url} />
       </div>
     </div>
   );
