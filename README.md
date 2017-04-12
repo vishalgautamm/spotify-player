@@ -19,3 +19,7 @@ Type npm start to start the demo application
 npm start
 ```
 
+Here is what the demo application looks like 
+
+><img src="http://i.imgur.com/pgvjxePl.png">
+
