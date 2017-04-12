@@ -1,8 +1,21 @@
 # App description
 
-* A clone of a popular music app - Spotify
+A clone of a popular music app - Spotify
 
-## To run this application:
-* clone the application
-* Install all the dependencies via npm install
-* type npm start to start the application
+# Instructions
+
+Clone the application
+```
+git clone https://github.com/vishalgautamm/spotify-player.git
+```
+
+Install all the dependencies via npm install
+```
+npm install
+```
+Type npm start to start the demo application
+
+```
+npm start
+```
+
