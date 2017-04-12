@@ -1,4 +1,8 @@
 # App description
 
 * A clone of a popular music app - Spotify
-* Please find the working version below:
+
+## To run this application:
+* clone the application
+* Install all the dependencies via npm install
+* type npm start to start the application
