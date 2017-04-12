@@ -21,5 +21,5 @@ npm start
 
 ## Application Demo: 
 
-><img src="http://i.imgur.com/pgvjxePl.png">
+><img src="http://i.imgur.com/C4q2bds.png">
 
